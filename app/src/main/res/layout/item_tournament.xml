@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Gambar Tournament -->
+        <ImageView
+            android:id="@+id/imgTournament"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pubg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Nama Tournament -->
+            <TextView
+                android:id="@+id/txtTournamentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PUBG Mobile Championship"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#212121"/>
+
+            <!-- Nama Game -->
+            <TextView
+                android:id="@+id/txtGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="🎮 PUBG Mobile"
+                android:textSize="16sp"
+                android:textColor="#616161"/>
+
+            <!-- Tanggal -->
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="📅 20 Juli 2026"
+                android:textSize="15sp"
+                android:textColor="#757575"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="DAFTAR"
+                android:textAllCaps="false"
+                app:cornerRadius="12dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

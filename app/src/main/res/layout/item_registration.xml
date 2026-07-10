@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Nama Tournament -->
+        <TextView
+            android:id="@+id/tvTournamentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PUBG Mobile Championship"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <!-- Nama Team -->
+        <TextView
+            android:id="@+id/tvTeamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Team : JALER ESPORTS"
+            android:textSize="16sp"/>
+
+        <!-- Instansi -->
+        <TextView
+            android:id="@+id/tvInstitution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instansi : Universitas Budi Luhur"
+            android:textSize="16sp"/>
+
+        <!-- Player -->
+        <TextView
+            android:id="@+id/tvPlayers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Player : Jaler, Budi, Rama, Andi, Dika"
+            android:textSize="15sp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#DDDDDD"/>
+
+        <!-- Tombol -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#D32F2F"
+                android:text="Delete"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

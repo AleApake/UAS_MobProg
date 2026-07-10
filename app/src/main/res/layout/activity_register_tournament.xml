@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtTournament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tournament"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#6A1B9A"/>
+
+        <TextView
+            android:id="@+id/txtSelectedTournament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Tournament"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Nama Team -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Team">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etTeamName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Instansi -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Asal Instansi">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etInstitution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Player 1 -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nickname Player 1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Game ID Player 1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGameId1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Player 2 -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nickname Player 2">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Game ID Player 2">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGameId2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Player 3 -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nickname Player 3">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPlayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Game ID Player 3">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGameId3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Player 4 -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nickname Player 4">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPlayer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Game ID Player 4">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGameId4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- Player 5 -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nickname Player 5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPlayer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Game ID Player 5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGameId5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="DAFTAR TIM"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>
